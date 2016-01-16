@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jsfood.model">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_panduan_doa"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.jsfood.SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.jsfood.MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.PanduanHaji"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.PanduanUmroh"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.activity.Activity_doa_haji_dan_umroh"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.activity.Activity_doa_haji_dan_umroh2"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.activity.Activity_doa_haji_dan_umroh3"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.activity.Activity_doa_haji_dan_umroh4"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.activity.Activity_doa_haji_dan_umroh5"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.activity.Activity_doa_haji_dan_umroh6"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.FungsiHaji"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.SyaratHaji"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.RukunHaji"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.Activity_Pelaksaan_Ibadah_Haji"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.Fungsi_Umroh"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.SyaratUmroh"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.RukunUmroh"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.doa.DoaIhram"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.doa.DoaKeluarRumah"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.doa.DoaKetikaSampaiDiMina"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.doa.DoaKetikaMelihatKabah"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.doa.DoaKetikaSampaiDiMudzalifah"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.doa.DoaKetikaTibaDiTempatTujuanMekah"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.doa.DoaMasukArafah"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.doa.DoaMasukMasjidilHaram"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.doa.DoaMasukMasjidilNabawi"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.doa.DoaMelontarJumroh"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.doa.DoaMemasukiKotaMekah"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.doa.DoaSai"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.doa.DoaSampaiDiTanahAir"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.doa.DoaSelesaiMelaksanakanUmroh"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.doa.DoaSewaktuKendaraanBergerak"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.doa.DoaThawaf"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.doa.DoaWukuf"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.doa.DoaINiatIbadahHajiDanUmroh"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.Kesimpulan"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.DoaMasukKotaMadinah"
+
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.DoaDiatasKendaraan"
+
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.DoaMengguntingRambut"
+
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.About"
+
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.jsfood.Activity_Pelaksanaan_Ibadah_Umroh"
+
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>

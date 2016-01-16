@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Aplikasi Panduan Doa Haji Dan Umroh</string>
+    <string name="drawer_open">Menu opened</string>
+    <string name="drawer_close">Menu closed</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_panduan_haji">PanduanHaji</string>
+    <string name="title_activity_panduan_umroh">PanduanUmroh</string>
+    <string name="title_activity_activity_doa_haji_dan_umroh">activity_doa_haji_dan_umroh</string>
+    <string name="title_activity_activity_doa_haji_dan_umroh2">Activity_doa_haji_dan_umroh2</string>
+    <string name="title_activity_activity_doa_haji_dan_umroh3">Activity_doa_haji_dan_umroh3</string>
+    <string name="title_activity_activity_doa_haji_dan_umroh4">Activity_doa_haji_dan_umroh4</string>
+    <string name="title_activity_activity_doa_haji_dan_umroh5">Activity_doa_haji_dan_umroh5</string>
+    <string name="title_activity_activity_doa_haji_dan_umroh6">Activity_doa_haji_dan_umroh6</string>
+    <string name="title_activity_fungsi_haji">FungsiHaji</string>
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="fungsi_haji">1. Gugur kewajiban, artinya bagi jemaah haji sudah gugur kewajiban sebab
+	kewajiban haji hanya sekali selama hidup.
+</string>
+    <string name="title_activity_syarat_haji">SyaratHaji</string>
+    <string name="title_activity_rukun_haji">RukunHaji</string>
+    <string name="title_activity_activity__pelaksaan__ibadah__haji">Activity_Pelaksaan_Ibadah_Haji
+    </string>
+    <string name="title_activity_fungsi__umroh">Fungsi_Umroh</string>
+    <string name="title_activity_syarat_umroh">SyaratUmroh</string>
+    <string name="title_activity_rukun_umroh">RukunUmro</string>
+    <string name="title_activity_doa_ihram">DoaIhram</string>
+    <string name="title_activity_doa_keluar_rumah">DoaKeluarRumah</string>
+    <string name="title_activity_doa_ketika_sampai_di_mina">DoaKetikaSampaiDiMina</string>
+    <string name="title_activity_doa_ketika_melihat_kabah">DoaKetikaMelihatKabah</string>
+    <string name="title_activity_doa_ketika_sampai_di_mudzalifah">DoaKetikaSampaiDiMudzalifa
+    </string>
+    <string name="title_activity_doa_ketika_tiba_di_tempat_tujuan_mekah">
+        DoaKetikaTibaDiTempatTujuanMekah
+    </string>
+    <string name="title_activity_doa_masuk_arafah">DoaMasukArafah</string>
+    <string name="title_activity_doa_masuk_masjidil_haram">DoaMasukMasjidilHaram</string>
+    <string name="title_activity_doa_masuk_masjidil_nabawi">DoaMasukMasjidilNabawi</string>
+    <string name="title_activity_doa_melontar_jumroh">DoaMelontarJumroh</string>
+    <string name="title_activity_doa_memasuki_kota_mekah">DoaMemasukiKotaMekah</string>
+    <string name="title_activity_doa_sai">DoaSai</string>
+    <string name="title_activity_doa_sampai_di_tanah_air">DoaSampaiDiTanahAir</string>
+    <string name="title_activity_doa_selesai_melaksanakan_umroh">DoaSelesaiMelaksanakanUmroh
+    </string>
+    <string name="title_activity_doa_sewaktu_kendaraan_bergerak">DoaSewaktuKendaraanBergerak
+    </string>
+    <string name="title_activity_doa_thawaf">DoaThawaf</string>
+    <string name="title_activity_doa_wukuf">DoaWukuf</string>
+    <string name="title_activity_doa_iniat_ibadah_haji_dan_umroh">DoaINiatIbadahHajiDanUmroh
+    </string>
+    <string name="title_activity_kesimpulan">Kesimpulan</string>
+    <string name="title_activity_doa_masuk_kota_madinah">DoaMasukKotaMadinah</string>
+    <string name="title_activity_doa_diatas_kendaraan">DoaDiatasKendaraan</string>
+    <string name="title_activity_doa_menggunting_rambut">DoaMengguntingRambut</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_activity__pelaksanaan__ibadah__umroh">
+        Activity_Pelaksanaan_Ibadah_Umroh
+    </string>
+
+</resources>

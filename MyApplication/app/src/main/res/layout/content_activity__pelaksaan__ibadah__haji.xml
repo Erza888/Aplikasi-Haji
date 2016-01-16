@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2681d0">
+
+    <include android:id="@+id/toolbar_actionbar"
+        layout="@layout/toolbar_default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2"
+        android:layout_below="@+id/toolbar_actionbar">
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentLeft="false">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="PELAKSANAAN IBADAH HAJI  "
+                    android:id="@+id/textView3"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="1. Pada tanggal 8 dzulhijah (hari tarwiyah) jemaah haji dimulai ihram dengan berniat haji, ihram tersebut dilaksanakan sejak dari miqat (mekkah atau dari mana saja jemaah haji tinggal di daerah haram). "
+                    android:id="@+id/textView6"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="2. Pada tanggal 9 Dzulhijah setelah matahari terbit ini, jemaah haji selanjutnya berangkat menuju Arafah untuk berwukuf (berhenti, “tinggal di sana”) hingga matahari terbenam. "
+                    android:id="@+id/textView18"
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="3. Pada tanggal 9 Dzulhijah seteah matahri terbenam, jamaah haji mulai meninggalkan Arafah menuju Muzdalifah. "
+                    android:id="@+id/textView19"
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="4. Sebelum matahari terbit pada tanggal 10 Dzulhijah (tepat pada hari 	raya idul Adha) ini, jemaah haji hendaknya sudah berada di Mina.  "
+                    android:id="@+id/textView20"
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="5. Selanjutnya jemaah haji menuju mekkah untuk melakukan thawaf (ifadah) 	 dan sa’i. "
+                    android:id="@+id/textView21"
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="6. Kemudian jemaah haji kembali lagi ke Mina, lantas bermalam di sana 	pada malam sebelas dan dua belas Zulhijah, dan sepanjang mabit mereka 	diperintahkan dalam setiap harinya melempar tiga jumrah. "
+                    android:id="@+id/textView22"
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="7.	Dengan tertibnya melaksanakan urutan rukun-rukun haji di atas selesailah 	 pelaksanaan ibadah haji. "
+                    android:id="@+id/textView23"
+                    android:layout_marginTop="15dp"
+                    android:layout_gravity="center_horizontal" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
